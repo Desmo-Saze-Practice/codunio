@@ -1,0 +1,40 @@
+<div class="nav-container border-bottom bg-light">
+	<nav
+		class="navbar-expand-xl navbar">
+
+		{# logo #}
+		<div class="logo-continer">
+			<a class="navbar-brand" href="/">Codunio</a>
+		</div>
+
+		{# search bar #}
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+
+		{# navigation #}
+		<div class="justify-content-end nav col" role="navigation">
+			<ul class="row">
+				<li class="nav-item">
+					<a class="nav-link flex-sm-fill text-sm-center" href="/">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link flex-sm-fill text-sm-center" href="/topic">New subject</a>
+				</li>
+
+				{# drop down #}
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expended="false">Account</a>
+					<div class="dropdown-menu">
+						<a class="nav-link nav-item dropdown-item flex-sm-fill text-sm-center" href="/register">Register</a>
+						<a class="nav-link nav-item dropdown-item flex-sm-fill text-sm-center" href="/login">connexion</a>
+						<div class="dropdown-divider"></div>
+						<a class="nav-link nav-item dropdown-item flex-sm-fill text-sm-center" href="/">logout</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</nav>
+</div>

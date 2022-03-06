@@ -1,0 +1,13 @@
+.nav-container {
+    height: 50px;
+}
+
+.nav-link, .nav-item, .nav-container, .navbar-brand {
+    color: black !important;
+}
+
+.dropdown-menu.show {
+    display: block;
+    left: -44px;
+    top: 36px;
+}
